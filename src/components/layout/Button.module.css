@@ -1,0 +1,78 @@
+.button {
+  border: 1px solid #e55812;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  background-color: #e55812;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-top: 0.8rem;
+  width: fit-content;
+  border-radius: 0.8rem;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  margin-top: 0.7rem;
+  margin-bottom: 0.1rem;
+  border-color: #c74f13;
+  background-color: #c74f13;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+a {
+  text-decoration: none;
+  /* color: #ffffff; */
+}
+
+.button.alt {
+  padding: 0.2rem 0.4rem;
+  margin: 0rem 0.3rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.button.alt:hover {
+  border: 1px solid #e55812;
+  color: #e55812;
+}
+
+@media only screen and (max-width: 991px) {
+}
+
+@media only screen and (max-width: 767px) {
+  .button {
+    padding: 0.5rem 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+  .button:hover {
+    margin-top: 0.4rem;
+  }
+
+  .button.alt {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .button {
+    padding: 0.4rem 0.7rem;
+    margin-top: 0.4rem;
+    font-size: 0.8rem;
+  }
+
+  .button:hover {
+    margin-top: 0.3rem;
+  }
+
+  .button.alt {
+    padding: 0.2rem 0.3rem;
+    margin: 0 0.3rem;
+    margin-bottom: 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 0.7rem;
+  }
+}

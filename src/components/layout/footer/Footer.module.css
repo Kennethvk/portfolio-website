@@ -1,0 +1,204 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #0d090a;
+  box-shadow: 0 0 3px #000000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 5rem 0;
+  width: 100%;
+  color: #e55812;
+  max-width: 1200px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.linkedin a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.linkedin svg {
+  width: 100%;
+  max-width: 3.5rem;
+  height: fit-content;
+}
+
+.phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.phone svg {
+  width: 100%;
+  max-width: 3.5rem;
+  height: fit-content;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+.email svg {
+  width: 100%;
+  max-width: 3.5rem;
+  height: fit-content;
+}
+
+.github a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.github svg {
+  width: 100%;
+  max-width: 3.5rem;
+  height: fit-content;
+}
+
+.copyright {
+  padding-top: 3rem;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 991px) {
+  .linkedin a {
+    font-size: 0.9rem;
+  }
+
+  .linkedin svg {
+    max-width: 3rem;
+  }
+
+  .phone {
+    font-size: 0.9rem;
+  }
+
+  .phone svg {
+    max-width: 3rem;
+  }
+
+  .email {
+    font-size: 0.9rem;
+  }
+
+  .email svg {
+    max-width: 3rem;
+  }
+
+  .github a {
+    font-size: 0.9rem;
+  }
+
+  .github svg {
+    max-width: 3rem;
+  }
+
+  .copyright {
+    padding-top: 2.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 3rem 1.5rem 0;
+  }
+
+  .contacts {
+    flex-direction: column;
+  }
+
+  .linkedin a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+  }
+
+  .linkedin svg {
+    max-width: 3rem;
+  }
+
+  .phone {
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+  }
+
+  .phone svg {
+    max-width: 3rem;
+  }
+
+  .email {
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+  }
+
+  .email svg {
+    max-width: 3rem;
+  }
+
+  .github a {
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+  }
+
+  .github svg {
+    max-width: 3rem;
+  }
+
+  .copyright {
+    padding-top: 0rem;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .linkedin svg {
+    max-width: 2.5rem;
+  }
+
+  .phone svg {
+    max-width: 2.5rem;
+  }
+
+  .email svg {
+    max-width: 2.5rem;
+  }
+
+  .github svg {
+    max-width: 2.5rem;
+  }
+
+  .copyright {
+    padding-top: 0rem;
+    font-size: 0.8rem;
+  }
+}
