@@ -38,7 +38,16 @@
   height: fit-content;
 }
 
-.phone {
+.linkedin p {
+  border-bottom: 0.15rem solid rgba(229, 88, 18, 0);
+  transition: border-bottom 0.5s, border-bottom-width 0.3s;
+}
+
+.linkedin:hover p{
+  border-bottom: 0.15rem solid rgba(229, 88, 18, 1);
+}
+
+.phone a{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,7 +61,16 @@
   height: fit-content;
 }
 
-.email {
+.phone p {
+  border-bottom: 0.15rem solid rgba(229, 88, 18, 0);
+  transition: border-bottom 0.5s, border-bottom-width 0.3s;
+}
+
+.phone:hover p{
+  border-bottom: 0.15rem solid rgba(229, 88, 18, 1);
+}
+
+.email a{
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -64,6 +82,15 @@
   width: 100%;
   max-width: 3.5rem;
   height: fit-content;
+}
+
+.email p {
+  border-bottom: 0.15rem solid rgba(229, 88, 18, 0);
+  transition: border-bottom 0.5s, border-bottom-width 0.3s;
+}
+
+.email:hover p{
+  border-bottom: 0.15rem solid rgba(229, 88, 18, 1);
 }
 
 .github a {
@@ -78,6 +105,15 @@
   width: 100%;
   max-width: 3.5rem;
   height: fit-content;
+}
+
+.github p {
+  border-bottom: 0.15rem solid rgba(229, 88, 18, 0);
+  transition: border-bottom 0.5s, border-bottom-width 0.3s;
+}
+
+.github:hover p{
+  border-bottom: 0.15rem solid rgba(229, 88, 18, 1);
 }
 
 .copyright {

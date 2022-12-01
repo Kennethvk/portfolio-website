@@ -16,12 +16,16 @@ function Footer() {
             </a>
           </div>
           <div className={style.phone}>
-            <WhatsappLogo title="Whatsapp Logo" />
-            <p>+6282233557738</p>
+            <a href="https://api.whatsapp.com/send?phone=6282233557738">
+              <WhatsappLogo title="Whatsapp Logo" />
+              <p>+6282233557738</p>
+            </a>
           </div>
           <div className={style.email}>
-            <EmailIcon title="Email Icon" />
-            <p>kennethkwandou@gmail.com</p>
+            <a href="mailto:kennethkwandou@gmail.com">
+              <EmailIcon title="Email Icon" />
+              <p>kennethkwandou@gmail.com</p>
+            </a>
           </div>
           <div className={style.github}>
             <a href="https://github.com/Kennethvk">

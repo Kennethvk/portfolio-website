@@ -33,7 +33,7 @@ function Projects(props) {
         <h1>My Projects</h1>
         <div>
           <Button className="alt" onClick={changeViewHandler}>
-            View: {view === "list" ? "Wide" : "Short"}
+            View: {view === "list" ? "Detailed" : "Compact"}
           </Button>
           <Button className="alt" onClick={changeSortHandler}>
             Sort: {sort === "oldest" ? "Oldest" : "Newest"}

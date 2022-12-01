@@ -1,7 +1,6 @@
 import style from "./Banner.module.css";
 import Button from "../layout/Button";
 import image from "./banner-photo.jpg";
-import cv from "./kenneth-vincent-kwandou-cv.pdf";
 
 function Banner() {
   return (
@@ -14,7 +13,7 @@ function Banner() {
         <p>
           A <span>Full Stack Developer</span>
         </p>
-        <a href={cv} target="_blank" rel="noopener noreferrer">
+        <a href={"/kenneth-vincent-kwandou-cv.pdf"} target="_blank" rel="noopener noreferrer">
           <Button>Check my CV here</Button>
         </a>
       </div>
