@@ -27,6 +27,16 @@ const projectsList = [
       "This is the final project for my mobile app course from Bina Nusantara Computer Club (BNCC). This app uses firebase as its database and has features such as registration, login, number counter, area calculator, and volume calculator.",
     url: "https://github.com/Kennethvk/LnTFinalProject_Mobile-G_Kenneth-Vincent-Kwandou",
   },
+  {
+    key: "img3",
+    title: "Baktify",
+    date: new Date("7 December 2022"),
+    image: require("./images/baktify.png"),
+    descShort: "A music album online store made with laravel, MySQL, and Bootstrap",
+    descLong:
+      "This is a group project for my web programming course on BINUS University. This app has features such as full music album CRUD, user register, member transactions, and more.",
+    url: "https://github.com/chris260602/Baktify/",
+  },
 ];
 
 function App() {

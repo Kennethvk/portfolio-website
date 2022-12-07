@@ -13,6 +13,7 @@
 
 .image {
   display: flex;
+  min-height: 12rem;
   max-height: 12rem;
 }
 
@@ -54,6 +55,7 @@
   
   .image {
     max-height: 10rem;
+    min-height: 10rem;
   }
   
   .title {
@@ -70,10 +72,13 @@
     margin: 0 auto 1rem;
     min-width: 15rem;
     max-width: 15rem;
+    min-height: 17rem;
+    max-height: 17rem;
   }
   
   .image {
-    max-height: 10rem;
+    max-height: 8rem;
+    min-height: 8rem;
   }
   
   .title {

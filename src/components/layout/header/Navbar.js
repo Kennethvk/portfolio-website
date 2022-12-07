@@ -7,18 +7,17 @@ import { ReactComponent as Dropdown } from "./dropdown-menu.svg";
 
 function Navbar() {
   const [collapsed, setCollapsed] = useState(true);
-  const navVisible = <Nav className={`${style.nav}`}/>;
-  const navInvisible = <Nav className={`${style.nav} ${style.invisible}`}/>;
-
+  
   const dropdownHandler = () => {
     if (collapsed) {
-      console.log(collapsed);
       setCollapsed(false);
     } else {
-      console.log(collapsed);
       setCollapsed(true);
     }
   };
+  
+  const navVisible = <Nav onClick={dropdownHandler} className={`${style.nav}`}/>;
+  const navInvisible = <Nav className={`${style.nav} ${style.invisible}`}/>;
 
   return (
     <header className={style.header}>

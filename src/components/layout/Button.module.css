@@ -35,6 +35,8 @@ a {
 }
 
 .button.alt:hover {
+  padding: 0.2rem 0.4rem;
+  margin: 0rem 0.3rem;
   border: 1px solid #e55812;
   color: #e55812;
 }
@@ -70,9 +72,13 @@ a {
 
   .button.alt {
     padding: 0.2rem 0.3rem;
-    margin: 0 0.3rem;
-    margin-bottom: 0.8rem;
+    margin: 0 0.3rem 0.8rem 0.3rem;
     border-radius: 0.5rem;
     font-size: 0.7rem;
+  }
+
+  .button.alt:hover{
+    padding: 0.2rem 0.3rem;
+    margin: 0 0.3rem 0.8rem 0.3rem;
   }
 }

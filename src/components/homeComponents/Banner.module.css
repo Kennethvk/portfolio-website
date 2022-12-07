@@ -60,6 +60,7 @@
 
 @media only screen and (max-width: 767px) {
   .banner {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,10 +71,10 @@
 
   .intro {
     position: absolute;
-    top: 25rem;
+    bottom: 2rem;
     left: 0rem;
     width: fit-content;
-    padding: 1rem 10% 1rem 5%;
+    padding: 1rem 3rem 1rem 1.5rem;
     background-color: rgba(239, 231, 218, 0.9);
     border-top-right-radius: 3rem;
     border-bottom-right-radius: 3rem;
@@ -111,8 +112,7 @@
 @media only screen and (max-width: 480px) {
 
   .intro {
-    top: 14rem;
-    padding: 1rem 8% 1rem 5%;
+    padding: 1rem 2rem 1rem 1rem;
     border-top-right-radius: 2.5rem;
     border-bottom-right-radius: 2.5rem;
   }
